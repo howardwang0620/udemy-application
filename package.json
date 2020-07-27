@@ -1,5 +1,5 @@
 {
-  "name": "udem-challenge",
+  "name": "udemy-challenge",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,6 @@
   },
   "scripts": {
   	"start": "node index.js",
-  	"heroku-postbuild": "cd client && npm && npm run build"
+  	"heroku-postbuild": "cd client && npm install && npm run build"
   }
 }
